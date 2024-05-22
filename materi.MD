@@ -19,3 +19,9 @@ git status
 ```console
 git add nama_file
 ```
+
+## Commit ke Repository
+
+```console
+git commit -m "MASUKKAN PESAN COMMIT"
+```
