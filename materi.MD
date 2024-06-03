@@ -25,3 +25,9 @@ git add nama_file
 ```console
 git commit -m "MASUKKAN PESAN COMMIT"
 ```
+
+## Melihat Perubahan Git
+
+```console
+git diff
+```
