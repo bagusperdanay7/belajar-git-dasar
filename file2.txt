@@ -1,0 +1,2 @@
+Menambah file.txt
+Menambah baris difile2.txt
