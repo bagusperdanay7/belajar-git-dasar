@@ -37,3 +37,9 @@ git diff
 ```console
 git clean -f
 ```
+
+## Membatalkan Perubahan File
+
+```console
+git restore namafile
+```
