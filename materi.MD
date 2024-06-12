@@ -31,3 +31,9 @@ git commit -m "MASUKKAN PESAN COMMIT"
 ```console
 git diff
 ```
+
+## Membatalkan Penambahan File
+
+```console
+git clean -f
+```
