@@ -57,3 +57,51 @@ Karena git restore hanya bisa dilakukan untuk membatalkan perubahan yang terjadi
 ```console
 git restore --staged namafile
 ```
+
+## Melihat Commit Log
+
+### Default Commit
+
+```shell
+git log
+```
+
+### Log Sederhana
+
+Jika Ingin menampilkan tampilan log yang sederhana, gunakan `--oneline`.
+
+```shell
+git log --oneline
+```
+
+### Graph
+
+Graph fungsinya untuk melihat hubungan commit log satu dengan sebelumnya.
+
+```shell
+git log --oneline --graph
+```
+
+### Detail Commit
+
+`hash` diisi dengan hash dari commit yang dipilih.
+
+```shell
+git show hash
+```
+
+## Compare Commit
+
+`hash1`, dan `hash2` adalah commit hash yang berbeda. Jadi membandingkan commit satu dengan commit lainnya.
+
+```shell
+git diff hash1 hash2
+```
+
+### Difftool
+
+Harus sesuai configuration tool yang digunakan. Contoh VS Code.
+
+```shell
+git difftool hash1 hash2
+```
