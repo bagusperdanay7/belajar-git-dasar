@@ -165,3 +165,7 @@ Git memiliki fitur revert commit, untuk membatalkan commit yang telah dilakukan 
 ```shell
 git revert hash
 ```
+
+## Git Ignore
+
+Jika ingin mengabaikan file atau folder apa saja yang tidak ingin dimasukkan ke repository, buat file `.gitignore` terlebih dahulu dan di dalam file `.gitignore`. Masukkan adapa saja yang ingin diabaikan.
