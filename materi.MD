@@ -105,3 +105,19 @@ Harus sesuai configuration tool yang digunakan. Contoh VS Code.
 ```shell
 git difftool hash1 hash2
 ```
+
+## Reset Commit
+
+Jika ingin membatalkan perubahan yang telah dicommit ke Repository, bisa melakukan reset commit. Mekanismenya menggeser HEAD pointer ke posisi commit yang kita mau. Mode git reset `<mode>` bisa diisi dengan `--soft` atau `--mixed` (default), atau `--hard`. Selama belum membuat commit baru, masih bisa kembali keatas.
+
+- `--soft`, memindahkan HEAD pointer, namun tidak melakukan perubahan apapun di Staging Index dan Working directory.
+- `--mixed`, memindahkan HEAD pointer, mengubah Staging Index menjadi sama seperti Repository, tetapi tidak mengubah apapun di Working directory.
+- `--hard`, memindahkan HEAD pointer, dan mengubah Staging Index & Working Directory (sama dengan Repository).
+
+```shell
+git reset <mode> hash
+
+git reset --soft 3b1000b
+git reset --mixed 3b1000b
+git reset --hard 3b1000b
+```
