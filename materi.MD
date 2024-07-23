@@ -169,3 +169,11 @@ git revert hash
 ## Git Ignore
 
 Jika ingin mengabaikan file atau folder apa saja yang tidak ingin dimasukkan ke repository, buat file `.gitignore` terlebih dahulu dan di dalam file `.gitignore`. Masukkan adapa saja yang ingin diabaikan.
+
+# Blame
+
+Blame adalah fitur di git yang digunakan untuk mencari tahu, siapa yang menambah perubahan serta commitnya.
+
+```shell
+git blame namafile
+```
