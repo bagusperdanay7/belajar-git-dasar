@@ -170,7 +170,7 @@ git revert hash
 
 Jika ingin mengabaikan file atau folder apa saja yang tidak ingin dimasukkan ke repository, buat file `.gitignore` terlebih dahulu dan di dalam file `.gitignore`. Masukkan adapa saja yang ingin diabaikan.
 
-# Blame
+## Blame
 
 Blame adalah fitur di git yang digunakan untuk mencari tahu, siapa yang menambah perubahan serta commitnya.
 
@@ -182,7 +182,7 @@ git blame namafile
 
 Alias fitur menarik karena kita bisa membuat nama lain dari perintah git.
 
-```
+```shell
 git config --global alias.ko commit
 git config --global alias.komit commit
 git config --global alias.logone "log --oneline"
