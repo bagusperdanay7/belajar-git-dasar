@@ -121,3 +121,11 @@ git reset --soft 3b1000b
 git reset --mixed 3b1000b
 git reset --hard 3b1000b
 ```
+
+## Amend Commit
+
+Amend commit bisa digunakan ketika ingin menambahkan perubahan yang terlupakan ketika sudah dicommit. Amend akan mengubah hash commit.
+
+```shell
+git commit --amend
+```
