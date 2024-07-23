@@ -157,3 +157,11 @@ Untuk melihat nama branch saat ini, gunakan perintah:
 ```shell
 git branch --show-current
 ```
+
+## Revert Commit
+
+Git memiliki fitur revert commit, untuk membatalkan commit yang telah dilakukan dengan cara membuat commit baru yang membatalkan commit sebelumnya.
+
+```shell
+git revert hash
+```
