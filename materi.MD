@@ -127,5 +127,33 @@ git reset --hard 3b1000b
 Amend commit bisa digunakan ketika ingin menambahkan perubahan yang terlupakan ketika sudah dicommit. Amend akan mengubah hash commit.
 
 ```shell
-git commit --amend
+git commit --amend -m "isi commit"
+```
+
+## Versi Sebelumnya
+
+Git memiliki fitur untuk dapat melihat versi file pada commit sebelumnya, Saat mengambil versi file sebelumnya, file tersebut akan berada di **Staginng Index**.
+
+```shell
+git checkout hash -- namafile
+git checkout 3b1000b -- file1.txt
+```
+
+## Snapshot Sebelumnya
+
+Git memiliki fitur seperti mesin waktu, kita bisa kembali ke snapshot sebelumnya.
+
+```shell
+git checkout hash
+
+# kembali ke awal
+git checkout namabranch
+```
+
+## Git Branch
+
+Untuk melihat nama branch saat ini, gunakan perintah:
+
+```shell
+git branch --show-current
 ```
