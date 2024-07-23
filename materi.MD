@@ -177,3 +177,13 @@ Blame adalah fitur di git yang digunakan untuk mencari tahu, siapa yang menambah
 ```shell
 git blame namafile
 ```
+
+## Menambahkan Alias di git
+
+Alias fitur menarik karena kita bisa membuat nama lain dari perintah git.
+
+```
+git config --global alias.ko commit
+git config --global alias.komit commit
+git config --global alias.logone "log --oneline"
+```
