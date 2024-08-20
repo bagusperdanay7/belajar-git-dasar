@@ -158,6 +158,42 @@ Untuk melihat nama branch saat ini, gunakan perintah:
 git branch --show-current
 ```
 
+### Membuat Branch Baru
+
+```shell
+git branch namabranch
+```
+
+### Melihat Semua Branch
+
+```shell
+git branch --list or git branch
+```
+
+### Pindah ke Branch Lain
+
+```shell
+git switch namabranch
+git checkout namabranch
+```
+
+### Mengubah nama Branch
+
+Jika membuat kesalahan nama branch bisa dilakukan perubahan, namun pindah dahulu ke branch yang ingin kita rubah namanya. Setelah pindah baru lakukan commit:
+
+```shell
+git branch -m namabranchbaru
+```
+
+### Menghapus Branch
+
+Untuk menghapus, keluar dari branch tersebut terlebih dahulu
+
+```shell
+git branch -d namabranch
+git branch --delete namabranch
+```
+
 ## Revert Commit
 
 Git memiliki fitur revert commit, untuk membatalkan commit yang telah dilakukan dengan cara membuat commit baru yang membatalkan commit sebelumnya.
