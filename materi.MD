@@ -223,3 +223,13 @@ git config --global alias.ko commit
 git config --global alias.komit commit
 git config --global alias.logone "log --oneline"
 ```
+
+## Merge
+
+Merge adalah proses penggabungan dua buah branch. Untuk melakukan merge, pindah dahulu ke branch dimana lokasi merge akan dilakukan, lalu gunakan perintah:
+
+```shell
+git merge namabranch
+```
+
+Misalnya ketika saat ini kita berada di merge master, dan ingin merge feature/1, berarti kita merge feature/1 ke dalam master.
