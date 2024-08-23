@@ -239,3 +239,11 @@ Misalnya ketika saat ini kita berada di merge master, dan ingin merge feature/1,
 ```shell
 git merge --abort
 ```
+
+## Cherry Pick
+
+Misal kita ingin mere branch feature/c, namun tidak ingin merge semua perubahan, maka bisa melakukan cherry pick untuk commit perubahannya. Caranya:
+
+```shell
+git cherry-pick commitId
+```
