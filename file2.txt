@@ -2,3 +2,4 @@ Menambah file.txt
 Menambah baris difile2.txt
 feature 2
 Feature A
+Feature C
