@@ -233,3 +233,9 @@ git merge namabranch
 ```
 
 Misalnya ketika saat ini kita berada di merge master, dan ingin merge feature/1, berarti kita merge feature/1 ke dalam master.
+
+### Membatalkan Conflict Merge
+
+```shell
+git merge --abort
+```
