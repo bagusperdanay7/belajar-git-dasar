@@ -71,6 +71,13 @@ git clone https://github.com/bagusperdanay7/belajar-git-dasar.git
 
 # Notes
 
+## Git COnfiguration
+
+```shell
+git config --global user.name "Bagus Perdana Yusuf"
+git config --global user.email "baguspyus@gmail.com"
+```
+
 ## Inisialisasi Project Git
 
 ```shell
