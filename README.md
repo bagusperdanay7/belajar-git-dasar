@@ -247,3 +247,97 @@ Misal kita ingin mere branch feature/c, namun tidak ingin merge semua perubahan,
 ```shell
 git cherry-pick commitId
 ```
+
+## SSH
+
+SSH adalah Secure shell yang merupakan protokol jaringan untuk komunikasi jaringan secara aman dan terenkripsi. SSH Key digunakan untuk autentikasi ke server SSH. Untuk membuat SSH Key, kita bisa gunakan perintah:
+
+```shell
+ssh-keygen
+```
+
+Setelah mengetikkan perintah di atas, secara otomatis akan terdapat 2 key di komputer lokal kita, yaitu `private key` dan `public key` yang terdapat pada **.ssh** home directory. File `id_rsa` adalah private key, dan `id_rsa_pub` adalah public key.
+
+### Menguji SSH ke Server GitHub
+
+```shell
+ssh -T git@github.com
+```
+
+## Git Remote
+
+Secara default, ketika kita membuat git project, git tidak tahu tentang remote repository. Maka kita perlu memberi tahu ke git project yang sudah kita buat tentang lokasi git repository.
+
+### Menambah Remote
+
+Untuk menambah remote repository, gunakan perintah:
+
+```shell
+git remote add nama ssh-url
+```
+
+### Melihat Remote
+
+Untuk melihat remote repository yang ada di git project gunakan perintah:
+
+```shell
+git remote
+```
+
+Melihat URL detail remote repository dengan perintah:
+
+```shell
+git remote get-url nama
+```
+
+### Menghapus Remote Repository
+
+```shell
+git remote rm nama
+```
+
+## Push
+
+Push digunakan untuk mensinkronisasikan project local dengan remote repository server, untuk mengirim perubahan di local ke git server, gunakan perintah:
+
+```shell
+# Mengirim perubahan branch ke remote dengan nama branch yang sama
+git push namaremote localbranch
+
+# Contoh
+git push origin main
+
+# Mengirim perubahan branch ke remote repository dengan nama branch yang berbeda
+git push namaremote localbranch:remotebranch
+
+# Contoh
+git push origin main:develop
+```
+
+### Push Semua Branch
+
+```shell
+git push origin --all
+```
+
+### Push Menghapus Branch
+
+```shell
+git push --delete namaremote namabranch
+
+git push --delete origin develop
+
+```
+
+## Clone
+
+Clone di git berarti kita unduh project Git yang terdapat di server ke local dan secara otomatis diunduh sebagai git project
+
+```shell
+git clone urlremoterepository
+
+# Klona dengan nama folder yang berbeda dengan nama remote repostiorynya
+git clone urlremoterepository namafolder
+```
+
+Default clone akan berisi remote repository origin ke git remote repository yang kita clone, dan default clone berisi branch utama repository remotenya.
