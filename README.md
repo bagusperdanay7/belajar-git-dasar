@@ -1,52 +1,121 @@
-# Belajar Git Dasar
+# Tutorial Git | PZN
 
-Materi dari Programmer Zaman Now
+Kode ini merupakan materi Git yang dibawakan oleh **Eko Kurniawan Khannedy** dari channel YouTube _Programmer Zaman Now_.
+
+Link Playlist Tutorial: [Tutorial Git](https://youtube.com/playlist?list=PL-CtdCApEFH_lYGV8hxqjtKmFA_xeLupq&si=1W1FVpi0y89SHqua)
+
+Bahasan Materi Meliputi:
+
+- Pengenalan Version Control
+- Git
+- Configuration
+- Repository
+- Workflow
+- Hash
+- Menambah File
+- Mengubah File
+- Menghapus File
+- Membatalkan Perubahan
+- Commit Log
+- Compare Commit
+- Rename File
+- Reset Commit
+- Amend Commit
+- Versi Sebelumnya
+- Snapshot Sebelumnya
+- Revert Commit
+- Ignore
+- Blame
+- Alias
+- Branch
+- Multiple Branch
+- Merge
+- Merge Conflict
+- Cherry Pick
+- Tag
+- Git Remote
+- Git Server
+- Git Server Repository
+- SSH
+- Remote Repository
+- Push
+- Clone
+- Remote Branch
+
+## Technology stack & Tools
+
+**Program ini membutuhkan:**
+
+| Tech Stack & Tools | Version |
+| ------------------ | ------- |
+| Git                | 2.30+   |
+| Visual Studio Code | -       |
+
+## Catatan Pribadi
+
+Jika ingin klona di komputer lain. Taruh di direktori berikut:
+
+    .
+    ├── Course
+    │   ├── Programmer Zaman Now
+    |   |   ├── GIT
+    |   |   └── ...
+    |   └── ...
+    └── ...
+
+Jika sudah di berada di folder **GIT**, baru clone.
+
+```shell
+git clone https://github.com/bagusperdanay7/belajar-git-dasar.git
+```
+
+# Notes
 
 ## Inisialisasi Project Git
 
-```console
+```shell
 git init
 ```
 
 ## Melihat Status
 
-```console
+```shell
 git status
 ```
 
 ## Menambah file
 
-```console
+```shell
 git add nama_file
 ```
 
 ## Commit ke Repository
 
-```console
+```shell
 git commit -m "MASUKKAN PESAN COMMIT"
 ```
 
 ## Melihat Perubahan Git
 
-```console
+```shell
 git diff
 ```
 
 ## Membatalkan Penambahan File
 
-```console
+```shell
 git clean -f
 ```
 
 ## Membatalkan Perubahan File
 
-```console
+```shell
 git restore namafile
 ```
 
 ## Membatalkan Penghapusan File
 
-```console
+```shell
 git restore namafile
 ```
 
@@ -54,7 +123,7 @@ git restore namafile
 
 Karena git restore hanya bisa dilakukan untuk membatalkan perubahan yang terjadi di **Working Directory**. Kita menggunakan `--staged` untuk mengembalikan posisi dari **staging index** ke **working directory**.
 
-```console
+```shell
 git restore --staged namafile
 ```
 
