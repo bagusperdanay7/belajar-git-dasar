@@ -71,7 +71,7 @@ git clone https://github.com/bagusperdanay7/belajar-git-dasar.git
 
 # Notes
 
-## Git COnfiguration
+## Git Configuration
 
 ```shell
 git config --global user.name "Bagus Perdana Yusuf"
