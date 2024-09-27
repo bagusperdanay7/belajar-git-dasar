@@ -71,6 +71,8 @@ git clone https://github.com/bagusperdanay7/belajar-git-dasar.git
 
 # Notes
 
+Ini merupakan catatan pribadi mengenai materi dari **Git** dengan Pak _Eko Kurniawan Khannedy_.
+
 ## Git Configuration
 
 ```shell
@@ -417,3 +419,7 @@ git clone urlremoterepository namafolder
 ```
 
 Default clone akan berisi remote repository origin ke git remote repository yang kita clone, dan default clone berisi branch utama repository remotenya.
+
+## Referensi
+
+- YouTube TUTORIAL GIT - Programmer Zaman Now
