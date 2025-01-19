@@ -1,8 +1,9 @@
 # Tutorial Git | PZN
 
-Kode ini merupakan materi Git yang dibawakan oleh **Eko Kurniawan Khannedy** dari channel YouTube _Programmer Zaman Now_.
+Kode ini merupakan materi Git yang dibawakan oleh **Eko Kurniawan Khannedy** dari channel YouTube **_Programmer Zaman Now_**.
 
-Link Playlist Tutorial: [Tutorial Git](https://youtube.com/playlist?list=PL-CtdCApEFH_lYGV8hxqjtKmFA_xeLupq&si=1W1FVpi0y89SHqua)
+Link Playlist Tutorial:
+[Tutorial Git](https://youtube.com/playlist?list=PL-CtdCApEFH_lYGV8hxqjtKmFA_xeLupq&si=1W1FVpi0y89SHqua)
 
 Bahasan Materi Meliputi:
 
@@ -55,13 +56,15 @@ Bahasan Materi Meliputi:
 
 Jika ingin klona di komputer lain. Taruh di direktori berikut:
 
-    .
-    ├── Course
-    │   ├── Programmer Zaman Now
-    |   |   ├── GIT
-    |   |   └── ...
-    |   └── ...
-    └── ...
+```text
+.
+├── Course
+│   ├── Programmer Zaman Now
+|   |   ├── GIT
+|   |   └── ...
+|   └── ...
+└── ...
+```
 
 Jika sudah di berada di folder **GIT**, baru clone.
 
