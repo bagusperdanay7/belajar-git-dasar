@@ -4,7 +4,7 @@ Kode ini merupakan materi Git yang dibawakan oleh **Eko Kurniawan Khannedy** dar
 
 Link Playlist Tutorial:
 
-[Tutorial Git](https://youtube.com/playlist?list=PL-CtdCApEFH_lYGV8hxqjtKmFA_xeLupq&si=1W1FVpi0y89SHqua)
+[![Static Badge](https://img.shields.io/badge/Tutorial_Git-white?style=for-the-badge&logo=youtube&logoColor=%23FF0000)](https://youtube.com/playlist?list=PL-CtdCApEFH_lYGV8hxqjtKmFA_xeLupq&si=1W1FVpi0y89SHqua)
 
 Bahasan Materi Meliputi:
 
